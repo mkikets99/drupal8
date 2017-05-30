@@ -1,0 +1,14 @@
+uuid: 2ee3432d-dab7-4f5e-a5f6-1f9413fb3d39
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - mykola.kikets@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

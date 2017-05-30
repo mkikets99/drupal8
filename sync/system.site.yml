@@ -1,0 +1,14 @@
+uuid: b80b09e4-77f3-4ad5-9977-d62b636f30a1
+name: d8
+mail: mykola.kikets@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

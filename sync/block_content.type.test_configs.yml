@@ -1,0 +1,8 @@
+uuid: 32277a13-041e-4137-83b6-60943ad214aa
+langcode: en
+status: true
+dependencies: {  }
+id: test_configs
+label: 'Test configs'
+revision: 0
+description: ''
