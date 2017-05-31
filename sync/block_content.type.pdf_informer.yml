@@ -1,0 +1,8 @@
+uuid: 53d382bc-ccb4-483e-81c9-cf5dc4bde10a
+langcode: en
+status: true
+dependencies: {  }
+id: pdf_informer
+label: 'pdf informer'
+revision: 0
+description: 'pdf informer'

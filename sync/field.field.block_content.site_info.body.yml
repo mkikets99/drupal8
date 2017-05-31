@@ -1,0 +1,22 @@
+uuid: cbfa3b41-34c4-4d6b-92dd-9a4f27a13aac
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.site_info
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.site_info.body
+field_name: body
+entity_type: block_content
+bundle: site_info
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

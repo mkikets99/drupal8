@@ -1,0 +1,31 @@
+uuid: 78f142d3-be97-4b18-bee1-67bb7ccffd9b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pdf_informer
+    - field.field.block_content.pdf_informer.body
+    - field.field.block_content.pdf_informer.field_pdf_load
+  module:
+    - file
+    - text
+id: block_content.pdf_informer.default
+targetEntityType: block_content
+bundle: pdf_informer
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_pdf_load:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: file_default
+    region: content
+hidden: {  }

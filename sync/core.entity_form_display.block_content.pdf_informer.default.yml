@@ -1,0 +1,41 @@
+uuid: 0a55a845-b006-4c0d-8f8d-65cddffc8a13
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pdf_informer
+    - field.field.block_content.pdf_informer.body
+    - field.field.block_content.pdf_informer.field_pdf_load
+  module:
+    - file
+    - text
+id: block_content.pdf_informer.default
+targetEntityType: block_content
+bundle: pdf_informer
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_pdf_load:
+    weight: 27
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

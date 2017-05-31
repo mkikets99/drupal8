@@ -1,0 +1,8 @@
+uuid: dc636dec-a495-43d4-a7ca-198d810a0e47
+langcode: en
+status: true
+dependencies: {  }
+id: google_script
+label: 'google script'
+revision: 0
+description: ''

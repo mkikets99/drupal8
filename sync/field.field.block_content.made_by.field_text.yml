@@ -1,0 +1,21 @@
+uuid: c23579ad-e16d-409a-97cb-513bfdb98f2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.made_by
+    - field.storage.block_content.field_text
+id: block_content.made_by.field_text
+field_name: field_text
+entity_type: block_content
+bundle: made_by
+label: text
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Made by'
+default_value_callback: ''
+settings: {  }
+field_type: string

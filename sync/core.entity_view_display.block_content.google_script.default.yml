@@ -1,0 +1,22 @@
+uuid: 2fb38598-64dd-4071-97d8-d07a0adc931a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.google_script
+    - field.field.block_content.google_script.body
+  module:
+    - text
+id: block_content.google_script.default
+targetEntityType: block_content
+bundle: google_script
+mode: default
+content:
+  body:
+    label: above
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

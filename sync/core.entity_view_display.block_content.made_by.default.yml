@@ -1,0 +1,31 @@
+uuid: 3948ea04-201f-4cd1-8149-226b3cee189e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.made_by
+    - field.field.block_content.made_by.body
+    - field.field.block_content.made_by.field_text
+  module:
+    - text
+id: block_content.made_by.default
+targetEntityType: block_content
+bundle: made_by
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_text:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

@@ -1,0 +1,22 @@
+uuid: 8437fa0e-fb40-4135-a9fb-1a43c34386b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pdf_informer
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.pdf_informer.body
+field_name: body
+entity_type: block_content
+bundle: pdf_informer
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

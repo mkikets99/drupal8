@@ -1,0 +1,19 @@
+uuid: 57c89e9c-23fd-4d03-8f24-7facbdbc32a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.site_info
+    - field.storage.block_content.field_si_email
+id: block_content.site_info.field_si_email
+field_name: field_si_email
+entity_type: block_content
+bundle: site_info
+label: 'SI email'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

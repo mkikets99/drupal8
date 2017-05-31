@@ -1,0 +1,25 @@
+uuid: 721db894-21ae-491e-81f0-db5038923a7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.google_script
+    - field.field.block_content.google_script.body
+  module:
+    - text
+id: block_content.google_script.default
+targetEntityType: block_content
+bundle: google_script
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 0
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  info: true

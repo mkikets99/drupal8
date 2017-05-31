@@ -1,0 +1,27 @@
+uuid: af5451f7-9374-42fb-a52e-b1c3200301b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pdf_informer
+    - field.storage.block_content.field_pdf_load
+  module:
+    - file
+id: block_content.pdf_informer.field_pdf_load
+field_name: field_pdf_load
+entity_type: block_content
+bundle: pdf_informer
+label: 'pdf load'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file
