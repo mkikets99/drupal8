@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_display.comment.comment.default
     - field.field.node.blog.body
+    - field.field.node.blog.field_calendar
     - field.field.node.blog.field_categories
     - field.field.node.blog.field_comments_blog
     - field.field.node.blog.field_image_blog
@@ -13,6 +14,7 @@ dependencies:
     - node.type.blog
   module:
     - comment
+    - datetime
     - image
     - link
     - text
@@ -28,6 +30,15 @@ content:
     weight: 3
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_calendar:
+    weight: 6
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
     region: content
   field_categories:
     weight: 2

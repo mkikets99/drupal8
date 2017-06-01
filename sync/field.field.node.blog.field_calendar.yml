@@ -1,0 +1,21 @@
+uuid: 7b95209b-4063-4034-9788-dccec29de34c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_calendar
+    - node.type.blog
+  module:
+    - datetime
+id: node.blog.field_calendar
+field_name: field_calendar
+entity_type: node
+bundle: blog
+label: Calendar
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.blog.body
+    - field.field.node.blog.field_calendar
     - field.field.node.blog.field_categories
     - field.field.node.blog.field_comments_blog
     - field.field.node.blog.field_image_blog
@@ -13,6 +14,7 @@ dependencies:
     - node.type.blog
   module:
     - comment
+    - datetime
     - image
     - link
     - path
@@ -37,6 +39,12 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_calendar:
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
   field_categories:
     weight: 26
     settings:
