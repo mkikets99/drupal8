@@ -83,5 +83,9 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  sharethis:
+    weight: 10
+    region: content
 hidden:
+  addtoany: true
   field_priority: true
