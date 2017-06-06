@@ -1,0 +1,24 @@
+uuid: a9533590-f0e1-42d7-a2f6-8eca6b880872
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.last_5_posts
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__last_5_posts_block_1
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:last_5_posts-block_1'
+settings:
+  id: 'views_block:last_5_posts-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }
