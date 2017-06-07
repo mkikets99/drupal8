@@ -1,0 +1,12 @@
+uuid: 9e112871-9fc4-4e9a-b061-9b22cf9a082e
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.friends
+id: flagging.friends.default
+targetEntityType: flagging
+bundle: friends
+mode: default
+content: {  }
+hidden: {  }

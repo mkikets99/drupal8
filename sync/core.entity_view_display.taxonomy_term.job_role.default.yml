@@ -1,0 +1,30 @@
+uuid: 92d5a32f-a59c-47f9-8011-fa7f501910ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.job_role.field_job_role
+    - taxonomy.vocabulary.job_role
+  module:
+    - text
+id: taxonomy_term.job_role.default
+targetEntityType: taxonomy_term
+bundle: job_role
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_job_role:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }

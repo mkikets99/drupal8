@@ -1,0 +1,13 @@
+uuid: 3329b84f-1117-47fc-b80e-30887529eca8
+langcode: en
+status: true
+dependencies:
+  module:
+    - flag
+id: flag_action.friends.flag
+label: 'Flag this item'
+type: user
+plugin: 'flag_action:friends.flag'
+configuration:
+  flag_id: friends
+  flag_action: flag

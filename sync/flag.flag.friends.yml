@@ -1,0 +1,30 @@
+uuid: 05ca62ea-0644-4e54-ac67-f0675bd832b5
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: friends
+label: Friends
+bundles: {  }
+entity_type: user
+global: false
+weight: 0
+flag_short: 'Follow [user:name]'
+flag_long: ''
+flag_message: Following
+unflag_short: 'Stop following [user:name]'
+unflag_long: ''
+unflag_message: 'Stoped following'
+unflag_denied_text: ''
+flag_type: 'entity:user'
+link_type: ajax_link
+flagTypeConfig:
+  show_in_links: {  }
+  show_as_field: true
+  show_on_form: false
+  show_contextual_link: false
+  extra_permissions:
+    owner: '0'
+  show_on_profile: false
+linkTypeConfig: {  }
