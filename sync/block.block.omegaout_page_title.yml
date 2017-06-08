@@ -1,0 +1,20 @@
+uuid: db4ff661-0e52-48bf-b5a8-8a05e8f226c2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - omegaout
+_core:
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: omegaout_page_title
+theme: omegaout
+region: header
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

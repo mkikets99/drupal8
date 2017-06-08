@@ -1,0 +1,22 @@
+uuid: ec0ae796-0a09-4761-a4fc-106c280bb389
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - omega_simple_starterkit
+_core:
+  default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
+id: omega_simple_starterkit_search
+theme: omega_simple_starterkit
+region: sidebar_second
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 189b7676-e50e-4fa9-a166-f08999304b67
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - omegaout
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: omegaout_content
+theme: omegaout
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

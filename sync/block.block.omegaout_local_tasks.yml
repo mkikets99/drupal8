@@ -1,0 +1,22 @@
+uuid: 8e8c908c-9878-404e-8a73-93462955ef68
+langcode: en
+status: true
+dependencies:
+  theme:
+    - omegaout
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: omegaout_local_tasks
+theme: omegaout
+region: header
+weight: 10
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

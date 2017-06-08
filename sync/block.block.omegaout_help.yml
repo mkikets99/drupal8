@@ -1,0 +1,22 @@
+uuid: fd725fe7-9f39-4eb8-a391-8bf5f73ea3de
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - omegaout
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: omegaout_help
+theme: omegaout
+region: header
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
