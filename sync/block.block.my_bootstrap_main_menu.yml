@@ -1,0 +1,26 @@
+uuid: 3daa2c64-bd2c-4599-bd91-755ff3adacfb
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - my_bootstrap
+_core:
+  default_config_hash: djPIHqZwBtdWFblJnDK8OAORwypKBncUuVPHG0822sA
+id: my_bootstrap_main_menu
+theme: my_bootstrap
+region: navigation_collapsible
+weight: 10
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }

@@ -1,0 +1,26 @@
+uuid: f2d6e0a6-7394-4842-940d-9744b7125978
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - my_bootstrap
+_core:
+  default_config_hash: gN6PG1JzZYj60EKO8UolkUre5AgflPN4dCneVkSMvlQ
+id: my_bootstrap_account_menu
+theme: my_bootstrap
+region: navigation_collapsible
+weight: 11
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }

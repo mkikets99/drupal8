@@ -1,0 +1,9 @@
+uuid: d71e283f-86a3-4e3c-81ba-0bd38c4658bd
+langcode: en
+status: true
+dependencies: {  }
+name: Movies
+vid: movies
+description: 'Taxonomy for muvikiv'
+hierarchy: 0
+weight: 0

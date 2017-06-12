@@ -1,0 +1,22 @@
+uuid: 48e48b30-7061-47e8-88e5-8b4454916de4
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - my_bartik
+_core:
+  default_config_hash: YqFUa2Tte8AbIVfDlczPTVSZJ1JS68xutEGdx5QQAEE
+id: my_bartik_search
+theme: my_bartik
+region: sidebar_second
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

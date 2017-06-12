@@ -1,0 +1,20 @@
+uuid: f90e7514-9c53-4c30-979f-cc342322f070
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bartik
+_core:
+  default_config_hash: gmOzP2Zq0i5WGktX4w5tenqIQXi85fcs7fMxzZCD13o
+id: bartik_page_title
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

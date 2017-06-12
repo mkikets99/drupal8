@@ -1,0 +1,25 @@
+uuid: 99033168-0dcf-4275-a878-fc222a656d9f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - my_bootstrap
+_core:
+  default_config_hash: gg5eTnt8daD_y7YYBlefiaunfhy1TjjZ1r3BfhDPt9o
+id: my_bootstrap_branding
+theme: my_bootstrap
+region: navigation
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }
