@@ -1,0 +1,35 @@
+uuid: 0829db12-436f-4f06-942f-f2bcd11ee55c
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.node_448
+    - views.view.who_s_online
+  module:
+    - views
+id: node_448-block_display-0
+label: 'node 448'
+variant: block_display
+variant_settings:
+  blocks:
+    7f108fe8-db7f-46f9-8a6c-12324c7090f7:
+      id: 'views_block:who_s_online-who_s_online_block'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: '5'
+      region: top
+      weight: 0
+      uuid: 7f108fe8-db7f-46f9-8a6c-12324c7090f7
+      context_mapping: {  }
+  id: block_display
+  uuid: 9622fc15-d8de-40ff-be93-741f06d673a2
+  label: null
+  weight: 0
+  page_title: '448'
+page: node_448
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

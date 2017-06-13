@@ -1,0 +1,12 @@
+uuid: d5acfd4b-4d5b-4796-966e-28f18ca775dc
+langcode: en
+status: true
+dependencies: {  }
+id: node_448
+label: 'node 448'
+description: ''
+use_admin_theme: false
+path: /node/448
+access_logic: and
+access_conditions: {  }
+parameters: {  }

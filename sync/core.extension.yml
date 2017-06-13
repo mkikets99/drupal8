@@ -12,10 +12,12 @@ module:
   contact: 0
   contact_block: 0
   contextual: 0
+  ctools: 0
   datetime: 0
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
+  entity_reference_revisions: 0
   field: 0
   field_ui: 0
   file: 0
@@ -29,6 +31,8 @@ module:
   node: 0
   options: 0
   page_cache: 0
+  page_manager: 0
+  page_manager_ui: 0
   path: 0
   quickedit: 0
   rdf: 0
@@ -45,8 +49,10 @@ module:
   update: 0
   user: 0
   views_ui: 0
+  webform: 0
   menu_link_content: 1
   views: 10
+  paragraphs: 11
   standard: 1000
 theme:
   stable: 0
@@ -59,6 +65,7 @@ theme:
   my_bootstrap: 0
   bartik: 0
   my_bartik: 0
+  adminimal_theme: 0
 profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
