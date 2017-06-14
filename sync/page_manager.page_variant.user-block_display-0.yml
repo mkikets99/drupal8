@@ -1,0 +1,88 @@
+uuid: b788e63e-9dc3-4264-91cb-3e777c00d910
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.user
+    - views.view.last_5_posts_2
+  module:
+    - ctools_block
+    - views
+id: user-block_display-0
+label: User
+variant: block_display
+variant_settings:
+  blocks:
+    3614adeb-0e64-460c-9b3d-dfbf3a758d58:
+      id: 'entity_field:user:user_picture'
+      label: Picture
+      provider: ctools_block
+      label_display: visible
+      formatter:
+        label: hidden
+        type: image
+        settings:
+          image_style: ''
+          image_link: ''
+        third_party_settings: {  }
+        weight: 0
+      region: top
+      weight: -10
+      uuid: 3614adeb-0e64-460c-9b3d-dfbf3a758d58
+      context_mapping:
+        entity: current_user
+    e212a8a1-f225-44e9-86fb-612740ae206f:
+      id: 'entity_field:user:name'
+      label: Name
+      provider: ctools_block
+      label_display: visible
+      formatter:
+        label: above
+        type: string
+        settings:
+          link_to_entity: false
+        third_party_settings: {  }
+        weight: 0
+      region: top
+      weight: -9
+      uuid: e212a8a1-f225-44e9-86fb-612740ae206f
+      context_mapping:
+        entity: current_user
+    03a50cd2-f9a4-428c-a370-2716804de6f2:
+      id: 'entity_field:user:field_about_me'
+      label: 'About Me'
+      provider: ctools_block
+      label_display: visible
+      formatter:
+        label: above
+        type: text_trimmed
+        settings:
+          trim_length: 150
+        third_party_settings: {  }
+        weight: 0
+      region: top
+      weight: -8
+      uuid: 03a50cd2-f9a4-428c-a370-2716804de6f2
+      context_mapping:
+        entity: current_user
+    f230a8e4-d4b3-427e-b6a8-697dba684514:
+      id: 'views_block:last_5_posts_2-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: top
+      weight: 0
+      uuid: f230a8e4-d4b3-427e-b6a8-697dba684514
+      context_mapping: {  }
+  id: block_display
+  uuid: 4209775d-83a3-44dc-b892-d9244d7ca674
+  label: null
+  weight: 0
+  page_title: ''
+page: user
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

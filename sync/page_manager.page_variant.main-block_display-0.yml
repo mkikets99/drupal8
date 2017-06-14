@@ -1,0 +1,86 @@
+uuid: 9e9ae781-cd95-45c8-a4f2-ce251fd752b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.main
+    - views.view.about_us
+    - views.view.gallery
+    - views.view.last_5_back
+    - views.view.last_content
+  content:
+    - 'block_content:image_block:b17a62ac-72b5-4e44-8cbd-92c4b55c98f3'
+  module:
+    - block_content
+    - views
+id: main-block_display-0
+label: Main
+variant: block_display
+variant_settings:
+  blocks:
+    fe0d7a05-4a84-45e1-a6e9-caa8e849dbb1:
+      id: 'block_content:b17a62ac-72b5-4e44-8cbd-92c4b55c98f3'
+      label: image
+      provider: block_content
+      label_display: visible
+      status: true
+      info: ''
+      view_mode: full
+      region: top
+      weight: -10
+      uuid: fe0d7a05-4a84-45e1-a6e9-caa8e849dbb1
+      context_mapping: {  }
+    5c2e8f55-a6e5-42ae-9b64-da74305d1c13:
+      id: 'views_block:last_5_back-block_1'
+      label: 'Last 5'
+      provider: views
+      label_display: visible
+      views_label: 'Last 5'
+      items_per_page: none
+      region: top
+      weight: -9
+      uuid: 5c2e8f55-a6e5-42ae-9b64-da74305d1c13
+      context_mapping: {  }
+    e4fa1bdb-9a17-4cf0-843a-b45a26bea674:
+      id: 'views_block:last_content-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: bottom
+      weight: -10
+      uuid: e4fa1bdb-9a17-4cf0-843a-b45a26bea674
+      context_mapping: {  }
+    4f08019f-8d44-4087-ba52-90ce20452591:
+      id: 'views_block:gallery-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: bottom
+      weight: -9
+      uuid: 4f08019f-8d44-4087-ba52-90ce20452591
+      context_mapping: {  }
+    de0166a5-bfb2-4ca3-928f-54b64547bfb5:
+      id: 'views_block:about_us-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: bottom
+      weight: -8
+      uuid: de0166a5-bfb2-4ca3-928f-54b64547bfb5
+      context_mapping: {  }
+  id: block_display
+  uuid: b60d8fb9-5d4e-4767-9263-6e9b7f6f9388
+  label: null
+  weight: 0
+  page_title: ''
+page: main
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }
